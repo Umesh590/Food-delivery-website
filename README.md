@@ -34,10 +34,12 @@ Throughout the development of this project, essential React concepts such as **c
 
 📸 Screenshots
 ---
-### **Main dashboard**
-
-<img width="100%" height="550" alt="food img" src="https://github.com/user-attachments/assets/7d4af24a-141c-4374-9025-81ca87cc792a" />
-<img width="100%" height="550" alt="food img2" src="https://github.com/user-attachments/assets/09ff3393-2bd4-4071-9d51-ccee452df1c5" />
+### **Project images**
+<img width="940" height="445" alt="registration page" src="https://github.com/user-attachments/assets/ac639d0d-47d1-4ffd-876f-4dca8fe6a361" />
+<img width="940" height="445" alt="login page" src="https://github.com/user-attachments/assets/bd6bdf6a-5ad1-483e-a7c6-f6a45286171b" />
+<img width="940" height="445" alt="food home page " src="https://github.com/user-attachments/assets/ae935542-1edc-44bb-98dd-677e30161a30" />
+<img width="940" height="445" alt="food menu page" src="https://github.com/user-attachments/assets/8c384536-e115-4e4e-b409-ea06a7d42272" />
+<img width="940" height="445" alt="food cart page " src="https://github.com/user-attachments/assets/a6926e0b-f8da-40cc-aa43-91f75574fb21" />
 
 <hr/>
 
@@ -53,6 +55,7 @@ Directory structure:
     ├── index.html
     ├── package.json
     ├── postcss.config.js
+    ├── README-recovered.md
     ├── tailwind.config.js
     ├── vite.config.js
     └── src/
@@ -64,7 +67,7 @@ Directory structure:
         ├── main.jsx
         ├── assets/
         │   ├── image1.avif
-        │   ├── image10.avif  111
+        │   ├── image10.avif
         │   ├── image12.avif
         │   ├── image13.avif
         │   ├── image14.webp
@@ -83,15 +86,19 @@ Directory structure:
         ├── components/
         │   ├── Card.jsx
         │   ├── Card2.jsx
+        │   ├── Footer.jsx
         │   ├── HeroSection.jsx
         │   └── Nav.jsx
         ├── context/
         │   └── UserContext.jsx
         ├── pages/
-        │   └── Home.jsx
+        │   ├── Home.jsx
+        │   ├── Login.jsx
+        │   └── Register.jsx
         └── redux/
             ├── cartSlice.js
             └── store.js
+
 ```
 <hr/>
 
